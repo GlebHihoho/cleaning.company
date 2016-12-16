@@ -1,0 +1,26 @@
+.social-groups {
+  padding-bottom: 20px;
+  background-color: #fc3;
+
+  text-align: center;
+}
+
+.social-groups__h3 {
+  @mixin margin-reset;
+  width: 300px;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.social-groups__link {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.social-groups__last {
+  margin-right: 0;
+}

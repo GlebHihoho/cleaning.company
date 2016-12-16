@@ -1,0 +1,22 @@
+.description {
+  padding-bottom: 20px;
+  background-color: #adcbef;
+}
+
+.description__head {
+  @mixin margin-reset;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.description__h2 {
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.description__h3 {
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+}

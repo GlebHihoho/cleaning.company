@@ -1,0 +1,32 @@
+.contacts {
+  padding: 30px;
+
+  @media (--tablet-widths) {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.contacts__cell--head {
+  padding-bottom: 10px;
+
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.contacts__cell--option {
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+
+.contacts__name {
+  @mixin margin-reset;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.contacts__text {
+  @mixin margin-reset;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}

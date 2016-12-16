@@ -1,0 +1,32 @@
+.advantages__h2 {
+  @mixin margin-reset;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  text-align: center;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.advantages__catd {
+  text-align: center;
+}
+
+.advantages__description {
+  width: 260px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.advantages__block {
+  @media (--tablet-widths) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+  }
+}
