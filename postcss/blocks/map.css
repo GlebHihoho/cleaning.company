@@ -1,0 +1,29 @@
+.map__mobile {
+  height: 480px;
+
+  @media (--tablet-widths) {
+    display: none;
+  }
+}
+
+.map__tablet {
+  height: 480px;
+  display: none;
+
+  @media (--tablet-widths) {
+    display: block;
+  }
+
+  @media (--desktop-widths) {
+    display: none;
+  }
+}
+
+.map__desktop {
+  height: 550px;
+  display: none;
+
+  @media (--desktop-widths) {
+    display: block;
+  }
+}

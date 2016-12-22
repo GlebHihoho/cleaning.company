@@ -14,6 +14,13 @@
 
   font-size: 17px;
   line-height: 20px;
+
+  @media (--tablet-widths) {
+    width: auto;
+
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
 
 .social-groups__link {

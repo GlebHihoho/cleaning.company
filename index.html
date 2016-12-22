@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
   <title>Cleaning Company</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -58,9 +59,31 @@
     </header>
 
     <div class="slider">
-      <div class="slider__slide">asd</div>
-      <div class="slider__slide">asd</div>
-      <div class="slider__slide">asd</div>
+      <div class="slider__slide  slider__first-slide">
+        <div class="slider__description">
+          <h2 class="slider__h2">Уборка помещений</h2>
+          <p class="slider__text">Услуги по ежедневной уборке квартир, коттеджей, офисов.</p>
+        </div>
+      </div>
+
+      <div class="slider__slide  slider__second-slide">
+        <div class="slider__description">
+          <h2 class="slider__h2">Профессиональный клининг</h2>
+          <ul class="slider__list">
+            <li class="slider__list-item">доступные цены на клиниговые услуги;</li>
+            <li class="slider__list-item">использование только современной техники;</li>
+            <li class="slider__list-item">высокое качество услуг;</li>
+            <li class="slider__list-item">высокую квалификацию специалистов.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="slider__slide  slider__third-slide">
+        <div class="slider__description">
+          <h2 class="slider__h2">Чистота — это просто</h2>
+          <p class="slider__text">Закажите профессиональную уборку квартиры. Выберите удобное время, все остальное сделаем мы.</p>
+        </div>
+      </div>
     </div>
 
     <div class="information">
@@ -120,55 +143,70 @@
     </div>
 
     <div class="description">
-      <p class="description__head" id="services">Делаем жизнь проще.</p>
+      <p class="description__head" id="services">Прейскурант цен.</p>
       <h2 class="description__h2">Что мы можем предложить:</h2>
       <div class="description__list-block">
         <h3 class="description__h3">Физическим лицам</h3>
         <ul class="description__list-head">
-          <li class="description__item">Генеральная уборка</li>
-          <li class="description__item">Уборка после ремонта</li>
-          <li class="description__item">Мойка окон</li>
-          <li class="description__item">Уборка после пожара</li>
-          <li class="description__item">Постоянное обслуживание домов</li>
-          <li class="description__item">Химчистка автомобиля</li>
+          <li class="description__item">Постоянная уборка - от 1 руб.</li>
+          <li class="description__item">Уборка после ремонта - от 2 руб.</li>
+          <li class="description__item">Мытьё окон - от 2 руб.</li>
+          <li class="description__item">Постоянное обслуживание домов - уточняйте по тел.</li>
+          <li class="description__item">Химчистка авто - от 50 руб.</li>
+          <li class="description__item">Генеральная уборка - от 5 руб.</li>
         </ul>
 
         <h3 class="description__h3">Юридическим лицам</h3>
         <ul class="description__list-head">
-          <li class="description__item">Уборка после строительства</li>
-          <li class="description__item">Уборка офисов</li>
-          <li class="description__item">Химчистка ковролина</li>
-          <li class="description__item">Уборка территории</li>
-          <li class="description__item">Ежедневная уборка</li>
-          <li class="description__item">Уборка складских помещений</li>
+          <li class="description__item">Уборка офисов - от 1 руб.</li>
+          <li class="description__item">Уборка после ремонта - от 20 руб.</li>
+          <li class="description__item">Мытьё окон - от 2 руб.</li>
+          <li class="description__item">Уборка территории - от 0.5 руб.</li>
+          <li class="description__item">Уборка складских помещений - от 20 руб.</li>
         </ul>
       </div>
+      <p class="description__footer">* Цена за 1 м<sup><small>2</small></sup></p>
     </div>
 
     <div class="social-groups">
       <h3 class="social-groups__h3">Подпишись на нас в социальных сетях и получи скидку!</h3>
       <a class="social-groups__link" href="#">
-        <img class="social-groups__img" src="img/vk-logo.png" width="43" height="53" alt="Контакт, картинка">
+        <img class="social-groups__img" src="img/vk-logo.png" width="33" height="51" alt="Контакт, картинка">
       </a>
       <a class="social-groups__link" href="#">
-        <img class="social-groups__img" src="img/ok-logo.png" width="33" height="53" alt="Одноклассники, картинка">
+        <img class="social-groups__img" src="img/ok-logo.png" width="29" height="51" alt="Одноклассники, картинка">
       </a>
       <a class="social-groups__link  social-groups__last" href="#">
-        <img class="social-groups__img" src="img/instagram-logo.png" width="53" height="53" alt="Инстаграмм, картинка">
+        <img class="social-groups__img" src="img/instagram-logo.png" width="51" height="51" alt="Инстаграмм, картинка">
       </a>
     </div>
 
     <div class="map">
-      <div class="map__mobile"></div>
-      <div class="map__tablet"></div>
-      <div class="map__desktop"></div>
+      <div class="map__mobile">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15708.796826212372!2d28.471362375538046!3d54.17783335554194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46da5781012c9d23%3A0x8a4a59866b9764cc!2z0YPQu9C40YbQsCDQntC30LXRgNC90LDRjyA1LCDQkdC-0YDQuNGB0L7Qsg!5e0!3m2!1sru!2sby!4v1482421017371" width="320" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="map__tablet">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15708.796826212372!2d28.471362375538046!3d54.17783335554194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46da5781012c9d23%3A0x8a4a59866b9764cc!2z0YPQu9C40YbQsCDQntC30LXRgNC90LDRjyA1LCDQkdC-0YDQuNGB0L7Qsg!5e0!3m2!1sru!2sby!4v1482421017371" width="760" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="map__desktop">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15708.796826212372!2d28.471362375538046!3d54.17783335554194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46da5781012c9d23%3A0x8a4a59866b9764cc!2z0YPQu9C40YbQsCDQntC30LXRgNC90LDRjyA1LCDQkdC-0YDQuNGB0L7Qsg!5e0!3m2!1sru!2sby!4v1482421017371" width="1150" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
     </div>
 
     <div class="partners">
       <h3 class="partners__h3">Наши партнёры:</h3>
-      <img class="partners__img" src="http://placehold.it/100x100" width="100" height="100" alt="БПС-банк, картинка">
-      <img class="partners__img" src="http://placehold.it/100x100" width="100" height="100" alt="Синлаб, картинка">
-      <img class="partners__img" src="http://placehold.it/100x100" width="100" height="100" alt="Марк-фомеле, картинка">
+      <div class="partners__mobile">
+        <div class="partners__mobile-slide">
+          <img class="partners__mobile-img" src="img/modile-slide-bps.png" width="259" height="200" alt="БПС-банк, картинка">
+        </div>
+        <div class="partners__mobile-slide">
+          <img class="partners__mobile-img  partners__mf" src="img/modile-slide-mf.png" width="204" height="56" alt="Марк-фомеле, картинка">
+          <img class="partners__mobile-img  partners__mf-text" src="img/modile-slide-mf-text.png" width="206" height="18" alt="Марк-фомеле, картинка">
+        </div>
+        <div class="partners__mobile-slide">
+          <img class="partners__mobile-img  partners__sl" src="img/modile-slide-sinlab.png" width="255" height="132" alt="Синлаб, картинка">
+        </div>
+      </div>
     </div>
 
     <div class="contacts" id="about-us">

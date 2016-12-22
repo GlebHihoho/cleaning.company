@@ -1,3 +1,162 @@
-.slider {
-  height: 350px;
+.slider__description {
+  height: 400px;
+  color: black;
+
+  background-color: rgba(162, 155, 184, 0.4);
+
+  @media (--tablet-widths) {
+    height: 500px;
+    background-color: rgba(162, 155, 184, 0);
+  }
+
+  @media (--desktop-widths) {
+    height: 600px;
+  }
 }
+
+.slider__slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider__first-slide {
+  background-image: url("../img/mobil-slider-1.jpg");
+
+  @media (--tablet-widths) {
+    background-image: url("../img/tablet-slider-1.jpg");
+  }
+
+  @media (--desktop-widths) {
+    background-image: url("../img/desktop-slider-1.jpg");
+  }
+}
+
+.slider__second-slide {
+  background-image: url("../img/mobil-slider-2.jpg");
+
+  @media (--tablet-widths) {
+    background-image: url("../img/tablet-slider-2.jpg");
+  }
+
+  @media (--desktop-widths) {
+    background-image: url("../img/desktop-slider-2.jpg");
+  }
+}
+
+.slider__third-slide {
+  background-image: url("../img/mobil-slider-3.jpg");
+
+  @media (--tablet-widths) {
+    background-image: url("../img/tablet-slider-3.jpg");
+  }
+
+  @media (--desktop-widths) {
+    background-image: url("../img/desktop-slider-3.jpg");
+  }
+}
+
+.slider__h2 {
+  @mixin margin-reset;
+  padding-top: 150px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+
+  font-size: 25px;
+  line-height: 30px;
+
+  @media (--tablet-widths) {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  @media (--desktop-widths) {
+    padding-top: 150px;
+    padding-left: 170px;
+  }
+}
+
+.slider__text {
+  @mixin margin-reset;
+  padding-left: 40px;
+
+  font-size: 17px;
+  line-height: 20px;
+
+  @media (--tablet-widths) {
+    width: 350px;
+    padding-left: 100px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  @media (--desktop-widths) {
+    padding-left: 170px;
+  }
+}
+
+.slider__second-slide .slider__h2 {
+  padding-top: 60px;
+
+  @media (--tablet-widths) {
+    padding-top: 80px;
+  }
+
+  @media (--desktop-widths) {
+    padding-top: 100px;
+  }
+}
+
+.slider__list {
+  padding-left: 50px;
+
+  @media (--tablet-widths) {
+    padding-left: 120px;
+
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  @media (--desktop-widths) {
+    padding-left: 190px;
+  }
+}
+
+.slider__list-item {
+  padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

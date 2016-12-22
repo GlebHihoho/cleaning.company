@@ -4,6 +4,20 @@
   @media (--tablet-widths) {
     display: flex;
     justify-content: flex-end;
+
+    padding-left: 70px;
+    padding-right: 40px;
+  }
+}
+
+.contacts__description {
+  @media (--tablet-widths) {
+    margin-left: 40px;
+  }
+
+  @media (--desktop-widths) {
+    margin-right: 50px;
+    margin-left: 100px;
   }
 }
 

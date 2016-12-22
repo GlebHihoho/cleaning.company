@@ -1,6 +1,20 @@
 .description {
   padding-bottom: 20px;
   background-color: #adcbef;
+
+  background-image: url("../img/Mobil-service.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (--tablet-widths) {
+    background-image: url("../img/Tablet-service.jpg");
+    padding-left: 250px;
+  }
+
+  @media (--desktop-widths) {
+    background-image: url("../img/Desktop-service.jpg");
+    padding-left: 650px;
+  }
 }
 
 .description__head {
@@ -19,4 +33,11 @@
   font-size: 17px;
   line-height: 20px;
   text-align: center;
+}
+
+.description__footer {
+  margin: 0;
+  padding-left: 30px;
+
+  font-weight: 700;
 }
