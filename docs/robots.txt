@@ -1,0 +1,3 @@
+Host: www.belcomclean.by
+
+Sitemap: http://belcomclean.by/sitemap.xml
