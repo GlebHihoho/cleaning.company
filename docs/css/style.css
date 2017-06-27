@@ -297,6 +297,124 @@ a img {
     padding-bottom: 10px
 }
 /**/
+.other__header {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 17px
+}
+@media (min-width: 1200px) {
+    .other__header {
+        display: flex;
+        padding-top: 30px;
+        padding-left: 40px
+    }
+}
+.other__price {}
+@media (min-width: 1200px) {
+    .other__price {
+        margin-left: 50px
+    }
+}
+.other__h2-price {
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center
+}
+@media (min-width: 1200px) {
+    .other__h2-price {
+        width: 400px;
+        font-size: 22px;
+        line-height: 25px
+    }
+}
+.other__h2 {
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center
+}
+.other__slogan {
+    text-align: center
+}
+@media (min-width: 1200px) {
+    .other__slogan {
+        font-size: 18px;
+        line-height: 20px
+    }
+}
+.other__btn-text {
+    text-align: center
+}
+.other__btn-block {
+    text-align: center;
+    padding-bottom: 20px
+}
+.other__btn-text {
+    margin-bottom: 30px
+}
+.other__link {
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: orange;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase
+}
+@media (min-width: 1200px) {
+    .other__link {
+        display: block;
+        margin-top: 35px
+    }
+}
+.other__contact {
+    text-align: center;
+    padding: 10px
+}
+.other__contact-text {}
+@media (min-width: 768px) {
+    .other__contact-text {
+        font-size: 17px;
+        line-height: 20px;
+        padding-left: 40px;
+        padding-right: 40px
+    }
+}
+.other__contact-slogan {
+    font-weight: 700
+}
+@media (min-width: 768px) {
+    .other__contact-slogan {
+        font-size: 20px;
+        line-height: 22px
+    }
+}
+.other__contact-footer {}
+@media (min-width: 768px) {
+    .other__contact-footer {
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: justify
+    }
+}
+.other__footer {
+    text-align: center;
+    padding: 10px
+}
+.other__text-footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify
+}
+@media (min-width: 768px) {
+    .other__text-footer {
+        padding-left: 40px;
+        padding-right: 40px
+    }
+}
 .information {}
 @media (min-width: 768px) {
     .information {

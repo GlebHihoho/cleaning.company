@@ -1,0 +1,123 @@
+.other__header {
+  @mixin margin-reset;
+  font-size: 15px;
+  line-height: 17px;
+
+  @media (min-width: 1200px) {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+}
+
+.other__price {
+  @media (min-width: 1200px) {
+    margin-left: 50px;
+  }
+}
+
+.other__h2-price {
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+
+  @media (min-width: 1200px) {
+    width: 400px;
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+
+.other__h2 {
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.other__slogan {
+  text-align: center;
+
+  @media (min-width: 1200px) {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+.other__btn-text {
+  text-align: center;
+}
+
+.other__btn-block {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.other__btn-text {
+  margin-bottom: 30px;
+}
+
+.other__link {
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: orange;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  @media (min-width: 1200px) {
+    display: block;
+    margin-top: 35px;
+  }
+}
+
+.other__contact {
+  text-align: center;
+  padding: 10px;
+}
+
+.other__contact-text {
+  @media (min-width: 768px) {
+    font-size: 17px;
+    line-height: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.other__contact-slogan {
+  font-weight: 700;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
+
+.other__contact-footer {
+  @media (min-width: 768px) {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+  }
+}
+
+.other__footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.other__text-footer {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+
+  @media (min-width: 768px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
