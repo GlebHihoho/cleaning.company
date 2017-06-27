@@ -7,6 +7,7 @@
     display: flex;
     padding-top: 30px;
     padding-left: 40px;
+    margin-bottom: 40px;
   }
 }
 
@@ -32,6 +33,13 @@
   font-size: 17px;
   line-height: 20px;
   text-align: center;
+
+  @media (min-width: 1200px) {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    line-height: 25px;
+  }
 }
 
 .other__slogan {
@@ -109,6 +117,12 @@
 .other__footer {
   text-align: center;
   padding: 10px;
+
+  @media (min-width: 1200px) {
+    background-image: url('../img/other-price.png');
+    background-position-x: right;
+    background-repeat: no-repeat;
+  }
 }
 
 .other__text-footer {
@@ -116,8 +130,11 @@
   padding-right: 15px;
   text-align: justify;
 
-  @media (min-width: 768px) {
-    padding-left: 40px;
-    padding-right: 40px;
+  @media (min-width: 1200px) {
+    padding-left: 150px;
+    padding-right: 150px;
+
+    margin-top: 20px;
+    margin-bottom: 220px;
   }
 }

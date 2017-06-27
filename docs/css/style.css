@@ -307,7 +307,8 @@ a img {
     .other__header {
         display: flex;
         padding-top: 30px;
-        padding-left: 40px
+        padding-left: 40px;
+        margin-bottom: 40px
     }
 }
 .other__price {}
@@ -332,6 +333,14 @@ a img {
     font-size: 17px;
     line-height: 20px;
     text-align: center
+}
+@media (min-width: 1200px) {
+    .other__h2 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 22px;
+        line-height: 25px
+    }
 }
 .other__slogan {
     text-align: center
@@ -404,15 +413,24 @@ a img {
     text-align: center;
     padding: 10px
 }
+@media (min-width: 1200px) {
+    .other__footer {
+        background-image: url('../img/other-price.png');
+        background-position-x: right;
+        background-repeat: no-repeat
+    }
+}
 .other__text-footer {
     padding-left: 15px;
     padding-right: 15px;
     text-align: justify
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .other__text-footer {
-        padding-left: 40px;
-        padding-right: 40px
+        padding-left: 150px;
+        padding-right: 150px;
+        margin-top: 20px;
+        margin-bottom: 220px
     }
 }
 .information {}
