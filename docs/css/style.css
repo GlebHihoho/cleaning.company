@@ -404,9 +404,10 @@ a img {
 @media (min-width: 1200px) {
     .other__contact {
         padding: 0;
-        background: url('../img/other-contant.png') top right,
+        background: url('../img/other-contant.png') 80% 0%,
       url('../img/other-tel.png') bottom left;
         background-repeat: no-repeat
+        /*background-size: auto;*/
     }
 }
 .other__contact-text {}
