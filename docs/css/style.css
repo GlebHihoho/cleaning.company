@@ -352,12 +352,18 @@ a img {
 @media (min-width: 1200px) {
     .other__slogan {
         margin-bottom: 100px;
-        font-size: 20px;
-        line-height: 25px
+        font-size: 30px;
+        line-height: 30px
     }
 }
 .other__btn-text {
     text-align: center
+}
+@media (min-width: 1200px) {
+    .other__btn-text {
+        font-size: 20px;
+        line-height: 24px
+    }
 }
 .other__btn-block {
     text-align: center;
