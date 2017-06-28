@@ -306,15 +306,17 @@ a img {
 @media (min-width: 1200px) {
     .other__header {
         display: flex;
-        padding-top: 30px;
-        padding-left: 40px;
         margin-bottom: 40px
     }
 }
 .other__price {}
 @media (min-width: 1200px) {
     .other__price {
-        margin-left: 50px
+        margin-left: 100px;
+        margin-right: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start
     }
 }
 .other__h2-price {
@@ -324,6 +326,8 @@ a img {
 }
 @media (min-width: 1200px) {
     .other__h2-price {
+        margin-top: 30px;
+        margin-bottom: 100px;
         width: 400px;
         font-size: 22px;
         line-height: 25px
@@ -347,8 +351,9 @@ a img {
 }
 @media (min-width: 1200px) {
     .other__slogan {
-        font-size: 18px;
-        line-height: 20px
+        margin-bottom: 100px;
+        font-size: 20px;
+        line-height: 25px
     }
 }
 .other__btn-text {
@@ -376,12 +381,25 @@ a img {
 @media (min-width: 1200px) {
     .other__link {
         display: block;
-        margin-top: 35px
+        width: 250px;
+        margin-top: 35px;
+        margin-left: 60px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 10px
     }
 }
 .other__contact {
     text-align: center;
     padding: 10px
+}
+@media (min-width: 1200px) {
+    .other__contact {
+        padding: 0;
+        background: url('../img/other-contant.png') top right,
+      url('../img/other-tel.png') bottom left;
+        background-repeat: no-repeat
+    }
 }
 .other__contact-text {}
 @media (min-width: 768px) {
@@ -390,6 +408,17 @@ a img {
         line-height: 20px;
         padding-left: 40px;
         padding-right: 40px
+    }
+}
+@media (min-width: 1200px) {
+    .other__contact-text {
+        padding-top: 250px;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-bottom: 50px;
+        margin: 0px;
+        font-size: 15px;
+        line-height: 17px
     }
 }
 .other__contact-slogan {
@@ -407,6 +436,13 @@ a img {
         padding-left: 40px;
         padding-right: 40px;
         text-align: justify
+    }
+}
+@media (min-width: 1200px) {
+    .other__contact-footer {
+        padding-left: 140px;
+        padding-right: 140px;
+        padding-top: 50px
     }
 }
 .other__footer {
