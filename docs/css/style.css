@@ -354,7 +354,20 @@ a img {
     .other__slogan {
         margin-bottom: 100px;
         font-size: 30px;
-        line-height: 30px
+        line-height: 30px;
+        font-weight: 700
+    }
+}
+.other__slogan-left {}
+@media (min-width: 1200px) {
+    .other__slogan-left {
+        padding-right: 120px
+    }
+}
+.other__slogan-right {}
+@media (min-width: 1200px) {
+    .other__slogan-right {
+        padding-left: 40px
     }
 }
 .other__btn-text {
@@ -435,8 +448,8 @@ a img {
 }
 @media (min-width: 768px) {
     .other__contact-slogan {
-        font-size: 20px;
-        line-height: 22px
+        font-size: 30px;
+        line-height: 45px
     }
 }
 .other__contact-footer {}
